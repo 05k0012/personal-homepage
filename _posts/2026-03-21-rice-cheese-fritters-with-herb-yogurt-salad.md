@@ -3,7 +3,7 @@ layout: post
 title: "Rice + Cheese Fritters with Green Herb Yogurt Salad"
 date: 2026-03-21
 images:
-  - /assets/images/Halibut_Jammy_Eggs.png
+  - /assets/images/Egg_fritters_salad.jpg
 tags: [fritters, salad, dairy, fibers, quick-meal]
 ---
 
