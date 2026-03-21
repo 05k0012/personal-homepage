@@ -1,0 +1,8 @@
+title: "Personal Homepage"
+description: "A personal homepage showcasing my interests and projects."
+baseurl: ""
+url: ""
+theme: minima
+collections:
+  posts:
+    output: true
