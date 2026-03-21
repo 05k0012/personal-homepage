@@ -3,14 +3,14 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 </head>
 <body style="font-family: sans-serif; max-width: 900px; margin: auto; padding: 20px;">
   <nav style="display: flex; justify-content: space-between; margin-bottom: 20px;">
-    <strong><a href="{{ site.baseurl }}/">Personal Homepage</a></strong>
+    <strong><a href="{{ "/" | relative_url }}">Personal Homepage</a></strong>
     <div>
-      <a href="{{ site.baseurl }}/about.html" style="margin-right: 15px;">About Me</a>
-      <a href="{{ site.baseurl }}/contact.html">Contact</a>
+      <a href="{{ "/about.html" | relative_url }}" style="margin-right: 15px;">About Me</a>
+      <a href="{{ "/contact.html" | relative_url }}">Contact</a>
     </div>
   </nav>
   {{ content }}

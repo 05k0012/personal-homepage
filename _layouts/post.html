@@ -6,7 +6,7 @@ layout: default
 {% if page.images %}
   <div style="display: flex; gap: 10px; overflow-x: auto;">
     {% for img in page.images %}
-      <img src="{{ img }}" style="height: 250px; border-radius: 10px;">
+      <img src="{{ img | relative_url }}" style="height: 250px; border-radius: 10px;">
     {% endfor %}
   </div>
 {% endif %}
