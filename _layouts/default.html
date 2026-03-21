@@ -3,15 +3,19 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
 </head>
 <body style="font-family: sans-serif; max-width: 900px; margin: auto; padding: 20px;">
   <nav style="display: flex; justify-content: space-between; margin-bottom: 20px;">
-    <strong><a href="/">Personal Homepage</a></strong>
+    <strong><a href="{{ site.baseurl }}/">Personal Homepage</a></strong>
     <div>
-      <a href="/about.html" style="margin-right: 15px;">About Me</a>
-      <a href="/contact.html">Contact</a>
+      <a href="{{ site.baseurl }}/about.html" style="margin-right: 15px;">About Me</a>
+      <a href="{{ site.baseurl }}/contact.html">Contact</a>
     </div>
   </nav>
   {{ content }}
+  <footer>
+    <p>&copy; 2026 Personal Homepage. All rights reserved.</p>
+  </footer>
 </body>
 </html>

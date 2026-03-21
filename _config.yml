@@ -1,8 +1,5 @@
 title: "Personal Homepage"
 description: "A personal homepage showcasing my interests and projects."
-baseurl: ""
-url: ""
+baseurl: "/personal-homepage"
+url: "https://05k0012.github.io"
 theme: minima
-collections:
-  posts:
-    output: true

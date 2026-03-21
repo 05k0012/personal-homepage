@@ -2,8 +2,6 @@
 layout: post
 title: "Sample Post"
 date: 2026-03-21
-images:
-  - /assets/images/sample.jpg
 tags: [sample]
 ---
 ## Introduction
