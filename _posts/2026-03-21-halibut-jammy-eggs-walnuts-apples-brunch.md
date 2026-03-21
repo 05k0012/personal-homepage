@@ -3,8 +3,7 @@ layout: post
 title: "Halibut + Jammy Eggs + Walnuts + Apples Brunch"
 date: 2026-03-21
 images:
-  - /assets/images/halibut-brunch-1.jpg
-  - /assets/images/halibut-brunch-2.jpg
+  - /assets/images/Halibut_Jammy_Eggs.png
 tags: [halibut, brunch, omega-3, gluten-free, vegan-adaptable]
 ---
 
