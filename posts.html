@@ -1,0 +1,72 @@
+---
+layout: default
+title: "All Posts"
+---
+
+<h1>All Posts</h1>
+<p>Browse posts by topic below.</p>
+
+{% assign recipes = site.posts | where_exp: "post", "post.tags contains 'halibut' or post.tags contains 'brunch' or post.tags contains 'fritters' or post.tags contains 'recipe'" %}
+{% assign ingredients = site.posts | where_exp: "post", "post.tags contains 'olive oil' or post.tags contains 'ingredients'" %}
+{% assign tech = site.posts | where_exp: "post", "post.tags contains 'tech' or post.tags contains 'vr' or post.tags contains 'ar' or post.tags contains 'cybersecurity'" %}
+{% assign lifestyle = site.posts | where_exp: "post", "post.tags contains 'hockey' or post.tags contains 'lifestyle'" %}
+
+{% if recipes.size > 0 %}
+<section style="margin-bottom: 40px;">
+  <h2>🍳 Recipes</h2>
+  <ul style="list-style: none; padding: 0;">
+    {% for post in recipes %}
+      <li style="margin-bottom: 12px;">
+        <a href="{{ post.url | relative_url }}" style="font-weight: 500; text-decoration: none; color: #2c5aa0;">{{ post.title }}</a>
+        <span style="color: #666; font-size: 0.9em;">— {{ post.date | date: "%B %d, %Y" }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if ingredients.size > 0 %}
+<section style="margin-bottom: 40px;">
+  <h2>🫒 Ingredients & Food Writing</h2>
+  <ul style="list-style: none; padding: 0;">
+    {% for post in ingredients %}
+      <li style="margin-bottom: 12px;">
+        <a href="{{ post.url | relative_url }}" style="font-weight: 500; text-decoration: none; color: #2c5aa0;">{{ post.title }}</a>
+        <span style="color: #666; font-size: 0.9em;">— {{ post.date | date: "%B %d, %Y" }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if tech.size > 0 %}
+<section style="margin-bottom: 40px;">
+  <h2>💻 Tech</h2>
+  <ul style="list-style: none; padding: 0;">
+    {% for post in tech %}
+      <li style="margin-bottom: 12px;">
+        <a href="{{ post.url | relative_url }}" style="font-weight: 500; text-decoration: none; color: #2c5aa0;">{{ post.title }}</a>
+        <span style="color: #666; font-size: 0.9em;">— {{ post.date | date: "%B %d, %Y" }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if lifestyle.size > 0 %}
+<section style="margin-bottom: 40px;">
+  <h2>🏒 Lifestyle</h2>
+  <ul style="list-style: none; padding: 0;">
+    {% for post in lifestyle %}
+      <li style="margin-bottom: 12px;">
+        <a href="{{ post.url | relative_url }}" style="font-weight: 500; text-decoration: none; color: #2c5aa0;">{{ post.title }}</a>
+        <span style="color: #666; font-size: 0.9em;">— {{ post.date | date: "%B %d, %Y" }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if recipes.size == 0 and ingredients.size == 0 and tech.size == 0 and lifestyle.size == 0 %}
+  <p style="color: #666;">No posts yet. Check back soon!</p>
+{% endif %}
