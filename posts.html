@@ -9,11 +9,13 @@ title: "All Posts"
 {% assign recipes_1 = site.posts | where: "tags", "halibut" %}
 {% assign recipes_2 = site.posts | where: "tags", "brunch" %}
 {% assign recipes_3 = site.posts | where: "tags", "fritters" %}
-{% assign recipes = recipes_1 | concat: recipes_2 | concat: recipes_3 | uniq %}
+{% assign recipes_4 = site.posts | where: "tags", "recipes" %}
+{% assign recipes = recipes_1 | concat: recipes_2 | concat: recipes_3 | concat: recipes_4 | uniq %}
 
 {% assign ingredients_1 = site.posts | where: "tags", "olive oil" %}
-{% assign ingredients_2 = site.posts | where: "tags", "ingredients" %}
-{% assign ingredients = ingredients_1 | concat: ingredients_2 | uniq %}
+{% assign ingredients_2 = site.posts | where: "tags", "olive-oil" %}
+{% assign ingredients_3 = site.posts | where: "tags", "ingredients" %}
+{% assign ingredients = ingredients_1 | concat: ingredients_2 | concat: ingredients_3 | uniq %}
 
 {% assign tech = site.posts | where: "tags", "tech" %}
 
