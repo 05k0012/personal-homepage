@@ -6,10 +6,16 @@ title: "All Posts"
 <h1>All Posts</h1>
 <p>Browse posts by topic below.</p>
 
-{% assign recipes = site.posts | where_exp: "post", "post.tags contains 'halibut' or post.tags contains 'brunch' or post.tags contains 'fritters' or post.tags contains 'recipe'" %}
-{% assign ingredients = site.posts | where_exp: "post", "post.tags contains 'olive oil' or post.tags contains 'ingredients'" %}
-{% assign tech = site.posts | where_exp: "post", "post.tags contains 'tech' or post.tags contains 'vr' or post.tags contains 'ar' or post.tags contains 'cybersecurity'" %}
-{% assign lifestyle = site.posts | where_exp: "post", "post.tags contains 'hockey' or post.tags contains 'lifestyle'" %}
+{% assign recipes_1 = site.posts | where: "tags", "halibut" %}
+{% assign recipes_2 = site.posts | where: "tags", "brunch" %}
+{% assign recipes_3 = site.posts | where: "tags", "fritters" %}
+{% assign recipes = recipes_1 | concat: recipes_2 | concat: recipes_3 | uniq %}
+
+{% assign ingredients = site.posts | where: "tags", "olive oil" %}
+
+{% assign tech = site.posts | where: "tags", "tech" %}
+
+{% assign lifestyle = site.posts | where: "tags", "hockey" %}
 
 {% if recipes.size > 0 %}
 <section style="margin-bottom: 40px;">
