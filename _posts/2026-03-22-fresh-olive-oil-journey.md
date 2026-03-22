@@ -3,7 +3,8 @@ layout: post
 title: "Fresh Olive Oil: Why Quality and Harvest Timing Matter"
 date: 2026-03-21
 images:
-  - /assets/images/134148274487808751.jpg
+  - /assets/images/oliveoil1.jpg
+  - /assets/images/oliveoil2.jpg
 tags: [olive oil, extra virgin, gifts, cooking oils, food writing]
 ---
 
