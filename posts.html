@@ -11,11 +11,15 @@ title: "All Posts"
 {% assign recipes_3 = site.posts | where: "tags", "fritters" %}
 {% assign recipes = recipes_1 | concat: recipes_2 | concat: recipes_3 | uniq %}
 
-{% assign ingredients = site.posts | where: "tags", "olive oil" %}
+{% assign ingredients_1 = site.posts | where: "tags", "olive oil" %}
+{% assign ingredients_2 = site.posts | where: "tags", "ingredients" %}
+{% assign ingredients = ingredients_1 | concat: ingredients_2 | uniq %}
 
 {% assign tech = site.posts | where: "tags", "tech" %}
 
-{% assign lifestyle = site.posts | where: "tags", "hockey" %}
+{% assign lifestyle_1 = site.posts | where: "tags", "hockey" %}
+{% assign lifestyle_2 = site.posts | where: "tags", "lifestyle" %}
+{% assign lifestyle = lifestyle_1 | concat: lifestyle_2 | uniq %}
 
 {% if recipes.size > 0 %}
 <section style="margin-bottom: 40px;">
