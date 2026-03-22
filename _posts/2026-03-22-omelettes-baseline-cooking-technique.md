@@ -13,7 +13,7 @@ images:
 tags: [breakfast, eggs, omelette, cooking-techniques, cheese, coffee, lifestyle, ingredients]
 ---
 
-Omelettes are one of my favorite ways to start the day. I think of them as a baseline cooking technique that everyone should know. For me, making an omelette is as much about the process as it is about the flavor.
+Omelettes are one of my favorite ways to start the day. I think of it as a baseline cooking technique that I want to master and maintain. For me, making an omelette is as much about the process and consistency as it is about the flavor.
 
 ## My Morning Routine
 
