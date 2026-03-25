@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Homemade Gyro Plate (Olive Oil–Forward, No Spit Required)"
+title: "Homemade Gyro Plate Olive Oil–Forward, No Spit Required"
 date: 2026-03-23
 published: true
 images:
