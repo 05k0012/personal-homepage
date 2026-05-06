@@ -4,7 +4,7 @@ title: "Governance and Agentic AI in Security Analysis"
 date: 2026-04-29
 images:
   - /assets/images/AiSlop.png
-tags: [ai, governance, security, agentic, grc]
+tags: [ai, governance, security, agentic, grc, tech]
 ---
 
 In the modern cybersecurity landscape, the conversation is shifting toward governance, risk, and compliance (GRC), specifically regarding how we govern agentic AI models used for security. Having used AI models extensively for security analysis, I have seen the evolution from simple automation to complex, autonomous agents.

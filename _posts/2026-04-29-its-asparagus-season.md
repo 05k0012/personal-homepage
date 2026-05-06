@@ -6,7 +6,7 @@ images:
   - /assets/images/Asp1.jpg
   - /assets/images/Asp2.jpg
   - /assets/images/Asp3.jpg
-tags: [asparagus, seasonal, spring, cooking, vegetables]
+tags: [asparagus, seasonal, spring, cooking, vegetables, recipes, ingredients]
 ---
 
 ## My Ode to Asparagus

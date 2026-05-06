@@ -4,7 +4,7 @@ title: "The Origin of LinuxDux"
 date: 2026-04-29
 images:
   - /assets/images/TuxCollege.png
-tags: [linux, origin story, evergreen, tux, handle, personal]
+tags: [linux, origin story, evergreen, tux, handle, personal, tech]
 ---
 
 People sometimes ask where the name LinuxDux.com comes from. The short answer is that it started at The Evergreen State College, and like most humorous things in tech, it began with a misunderstanding.
