@@ -113,3 +113,5 @@ I have tried to get her into hockey. She will put on the pads and grab a stick, 
 If you get over all the hurdles and learn how to play, the rewards are out of this world. It is one of the greatest things I have ever done, and I cannot imagine my life without the sport. It is my exercise, my social circle, my community. I love seeing the regulars at drop-ins, I love seeing my teammates, and I love building community through tournaments and events.
 
 These are the reasons I play hockey every chance I get. I hope to play as long as I can, and I hope to play for the rest of my life. It truly is the greatest sport for me.
+
+BTW the really good photos, including the title image, was shot by the talented [Sam Allen](https://www.samallenphoto.com/About) His wife plays on the team. Also I think one of the other photos was from [Andy Glass](https://www.andyglassphotography.com/about-me) worth a shout out as Andy is also a fellow cyber security guy turned hockey addict and one of my favorite people to see at the rink. 
